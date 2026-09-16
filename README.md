@@ -1,7 +1,7 @@
 # 3DGS Hardware Accelerater
 This project implements an RTL-based hardware accelerator for 3D Gaussian Splatting (3DGS), targeting efficient real-time rendering through dedicated digital hardware. The design focuses on key stages of the 3DGS pipeline, including Gaussian preprocessing, projection, depth sorting, rasterization, and alpha blending.
 
-The accelerator is implemented in Verilog with an emphasis on pipelining and parallelism. A hardware Bitonic Sort module is used for depth sorting, while computationally expensive operations such as square-root calculation are approximated using lookup tables to reduce latency and hardware complexity. The design targets a 5 ns clock period.
+The accelerator is implemented in Verilog with an emphasis on pipelining and parallelism. A hardware Bitonic Sort module is used for depth sorting, while computationally expensive operations such as square-root calculation are approximated using lookup tables to reduce latency and hardware complexity.
 
 A software reference model is included for functional verification. Its outputs are compared with RTL simulation results to validate individual modules and the overall rendering pipeline.
 
