@@ -1,0 +1,18 @@
+# Simulation
+*.fsdb
+*.vcd
+*.vpd
+*.log
+simv
+simv.daidir/
+csrc/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

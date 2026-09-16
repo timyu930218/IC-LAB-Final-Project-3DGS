@@ -1,0 +1,19 @@
+Use .f to add files into simulation 
+
+Testbench (choose the one you want to test)
+- sim_128x128/test_top_128.v		# presim & gatesim
+- sim_demo/test_top_demo.v		# presim & gatesim
+- post_sim_128x128/test_top_128.v	# postsim
+- post_sim_demo/test_top_demo.v		# postsim
+
+# How do simulation work
+We store computed data in gaussian sram and sort sram, the testbench 
+will compare the sram data with the golden data. We also write a run 
+script for easier running.
+
+remember to modify .f in run.sh first to choose presim or gatesim
+
+```
+bash run_sim_128.sh		# run stage render
+bash run_sim_demo.sh stage8     # run stage render
+```
