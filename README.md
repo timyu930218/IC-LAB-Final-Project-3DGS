@@ -7,6 +7,8 @@ A software reference model is included for functional verification. Its outputs 
 
 The current prototype supports a resolution of 128 × 128 pixels and up to 64 Gaussian primitives. This repository contains the RTL implementation and software reference code developed for the IC Laboratory final project.
 
+Fore more info about technique, report and slides, please visit: https://drive.google.com/drive/folders/1NVZPFW47moTRSB8qLrgREnxv97MZYNYm?usp=drive_link
+
 ## License and Copyright
 
 Copyright © 2026 Kai-An You. All Rights Reserved.
